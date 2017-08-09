@@ -1,4 +1,4 @@
-var input = [1,2,3,4,5];
+// var input = [1,2,3,4,5];
 
 
 // check if input is an array
@@ -32,16 +32,36 @@ var input = [1,2,3,4,5];
 // clone_array(input);
 
 // get element of array
-function pickIndex(array, index){
-	if(Array.isArray(array)){
-		if(typeof index == "number"){
-			console.log(array[index]);
-		} else {
-			console.log("index does not exsist");
-		}
-	} else {
-		console.log("input is not an array");
-	}
-}
+// function pickIndex(array, index){
+// 	if(Array.isArray(array)){
+// 		if(typeof index == "number"){
+// 			console.log(array[index]);
+// 		} else if(index == undefined) {
+// 			console.log(array[0]);
+// 		}
+// 	} else {
+// 		console.log("input is not an array");
+// 	}
+// }
 
-pickIndex(input,3);
+// pickIndex(input);
+
+// get last element of an array
+// function last(input, n){
+// 	if(input == null)
+// 		// this will return as undifined
+// 		return void 0; 
+// 	if(n == null)
+// 		return array[input.length -1]
+// 	return input.slice(Math.max(input.length - n, 0))
+// }
+
+// console.log(last([7, 9, 0, -2], 3)); 
+
+// join all elments of array as string
+
+var myColor = ["Red", "Green", "White", "Black"];
+
+console.log(myColor.toString());
+console.log(myColor.join());
+console.log(myColor.join("+"));
