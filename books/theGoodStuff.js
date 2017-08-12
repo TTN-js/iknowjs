@@ -79,6 +79,38 @@ console.log("Hello, World!");
 
 	/*
 
+	This is because two strings containing exactly the same characters in the same order are considered to be the same string. 
+
+	STATEMENTS
+
+	Question: When inside of a function, the var statment defines the functions private variables. What is this known as? 
+
+	Question: What are Javascritps conditional statments? (if & switch)
+	Question: What are Javascript looping statments? (while, for, do)
+	Question: What are Javascript disruptive statments? (break, return, and throw)
+
+	*/
+	// not really sure what this does.... 
+	{"hihi"}
+
+	/*
+	
+	Falsy values:
+	- false
+	- null 
+	- undefined 
+	- empty string ''
+	- the number 0
+	- the number NaN
+
+	Truthy values:
+	- true
+	- 'false'
+	- all objects
+
+
+	EXPRESSIONS
+
 */ 
 
 
