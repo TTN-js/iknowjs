@@ -108,8 +108,32 @@ console.log("Hello, World!");
 	- 'false'
 	- all objects
 
+	Question: Can we talk about expression statment diagram? I have no clue... 
 
 	EXPRESSIONS
+	
+	Qustion: Can someone give me an example, or explain how a ternary operator works? 
+
+	Its just short hand for if else.
+	*/
+
+	if(userIsYoungerThan21) {
+	  serveGrapeJuice();
+	}
+	else {
+	  serveWine();
+	}
+
+	userIsYoungerThan21 ? serveGrapeJuice() : serveWine();
+
+	/*
+
+	Question: What is the invocation operator in JS? ()
+	Question: What does refinement used for in JS?  . & []
+
+	Specifies a property or element of object or array. 
+
+	Chapter 3 : Objects
 
 */ 
 
