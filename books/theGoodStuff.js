@@ -2,7 +2,30 @@ console.log("Hello, World!");
 
 
 /*
-	Chapter 2 : Grammer
+	***Chapter 1 : Good Parts 
+
+	Every Language comes with its good and bad parts. We should try to focus on using only the good parts and avoid the bad. 
+
+	We can become better programers by defining your subset of good parts. 
+
+	Why Javascript? 
+	JS is the language of the web browser. It is a language with enormous expressive power. 
+
+	Analyzing Javascript
+
+	The good: 
+	Functions: JS functions are first class objects with lexical scoping. 
+
+	Loose Typing: Other languages have strong typing but that doesn’t mean that it eliminates the need for careful testing. Loose typing allows for us to not have to worry about the typing system.
+
+	Dynamic Objects and Expressive Object Literal Notation: Objects are simply created by listing their components. 
+
+	JS prototypal nature is a plus. This is where object can inherit properties directly from other objects. 
+
+	The bad: 
+	A programming model based on global variables. 
+
+	***Chapter 2 : Grammer
 
 	WHITESPACE can be considered as:
 	- a space
@@ -109,7 +132,7 @@ console.log("Hello, World!");
 	- all objects
 
 	Question: Can we talk about expression statment diagram? I have no clue... 
-
+r
 	EXPRESSIONS
 	
 	Qustion: Can someone give me an example, or explain how a ternary operator works? 
@@ -133,7 +156,45 @@ console.log("Hello, World!");
 
 	Specifies a property or element of object or array. 
 
-	Chapter 3 : Objects
+	**Chapter 3 : Objects
+
+	Question: Can someone give me an example of mutable vs immutable?  
+
+	https://gist.github.com/sean-roberts/5710852
+
+	Question: Can someone explain the difference between [] and . when it comes to objects and retrieval? Which is perfered? 
+
+	REFERENCE
+	Question: How are the below objects different? 
+	*/
+
+	var a = {}, b = {}, c = {};
+	       // a, b, and c each refer to a
+	       // different empty object
+	   	a = b = c = {};
+	       // a, b, and c all refer to
+	       // the same empty object
+
+	/*
+
+	PROTOTYPE
+
+	Question: What are constructors and prototypes again? 
+
+	REFLECTION
+
+	Question: What does hasOwnProperty do? Does it look at the prototype chain? 
+	Returns true if the object has a particular property. no.
+
+	FUNCTIONS
+	Question: What the heck are anonymous functions? 
+
+	INVOCATION
+	If there are too many argument values, the extra argument values will be ________. If there are too few argument values, the _________ value will be substituted for the missing values. 
+	ignored, undefined
+
+	OOP
+	https://softwareengineering.stackexchange.com/questions/34584/how-to-explain-oop-concepts-to-a-non-technical-person
 
 */ 
 
