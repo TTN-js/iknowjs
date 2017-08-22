@@ -40,21 +40,41 @@ Common types of NoSQL DBs
 Differences can be found in how DBs are build, type of information they store, and how the DB stores the data. 
 
 Relational (SQL) databases utilize tables to organize structured data fields into defined columns.
+
 Need to define schema prior to using
 Rigid in structure
 Harder to scale quickly
 Excellent orginization
 Compromises flexability
 
+Why use SQL?
+	- Need ACID compliancey (automicity, consistency, isolation, durability). This protects the integrity of your DB by prescribing exactly how transations interact with the database. 
+	- Your data is structured and unchanging: 
+	If your business is not experiencing massive growth requiring more servers and you're only dealing with consistent data. 
+
 VS
-Non-relational (NoSQL) databases store data ina single document file. 
+Non-relational (NoSQL) databases store data in a single document file. 
 
+processing speed and scalability are a plus
+requires more processing effort
+requires more storage
+no need to define data types 
 
-
+Why use NoSQL? 
+	- Data isn't the bottleneck
+	- Dealling with big data
+	- Allows storing of large columes of data that often have no structure. 
+	- Making the most of cloud computing and storage
+	- Allows rapid development - Agile sprints! because NoSQL data doesn't need to be prepped ahead of time.
 
 ========== What is MongoDB? ==========
+The most popular NoSQL system. Document-oriented with json-like documents in synamic schemas instead of relational tables. Used in MEAN stack. Pretty similar to JSON in terms of structure. 
 
+MongoDB store collections with documents of data. 
 
+MongoDB is composed of multiple collections
+Collections are composed multiple documents
+Documents are composed of multiple fields BSON (JSON-like key:value pairs)
 
 
 */
